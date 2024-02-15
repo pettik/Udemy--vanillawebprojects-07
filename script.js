@@ -28,7 +28,7 @@ function displayWord(){
     const innerWord = wordEl.innerText.replace(/\n/g, '');
 
     if (innerWord === selectedWord) {
-      finalMessage.innerText = 'Congratulations! You won ice-creeeeaaam 🍦👍🥳😃';
+      finalMessage.innerText = 'Congratulations! You’ve won an ice cream! 🍦👍🥳😃';
       popup.style.display = 'flex';
       window.addEventListener('keydown', e => {
         if(e.keyCode === 13 || e.keyCode === 32){
